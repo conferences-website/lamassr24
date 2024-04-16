@@ -13,7 +13,7 @@ html, body {
 }
 
 .grad {
-	background-image: linear-gradient(#FAF5E9, #FFCC00, #FAF5E9);
+	background-color: #FFCC00;
 }
 
 .grad1 {
