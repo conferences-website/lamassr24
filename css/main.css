@@ -61,9 +61,6 @@ a:hover {
 	color: #000;
 }
 
-/*.speakers, .news {
-	padding: 40px 0;
-}*/
 
 section {
     padding-top:90px;
@@ -82,7 +79,7 @@ section {
     border-color: #e90c54;
 }
 
-h3 {
+h3, h5 {
 	font-family: 'Noteworthy', sans-serif;
  	color: #009B4D;
 }
@@ -109,4 +106,20 @@ border: none !important;
     width: 150px; /* You can set the dimensions to whatever you want */
     height: 150px;
     object-fit: cover;
+}
+
+.img-kr {
+	width: 50px; /* You can set the dimensions to whatever you want */
+    height: 50px;
+    object-fit: cover;
+}
+
+.list-group {
+	display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-group-item {
+flex-basis: 33.3333%;
 }
