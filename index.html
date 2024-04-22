@@ -1,309 +1,235 @@
-  <!doctype html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>LAMAS&SR 2024</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 
-      <!-- Bootstrap CSS -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
-      <link href="https://fonts.cdnfonts.com/css/noteworthy" rel="stylesheet">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-      <title>LAMAS&SR 2024</title>
-      <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="./images/favicon/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-      <link rel="manifest" href="./images/favicon/manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
-    </head>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <body>
-  <!--Navbar-->
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="main.css" rel="stylesheet" />
+        </head>
+        
+        <body id="page-top">
 
-      <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#about"><img src="./images/lamas_logo.png" alt="LAMAS&SR" width="140" height="60" class="d-inline-block"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse dd" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#call" aria-disabled="true">CALL FOR PAPERS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#dates" aria-disabled="true">IMPORTANT DATES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#program" aria-disabled="true">PROGRAM</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#speakers" aria-disabled="true">INVITED SPEAKERS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#committee" aria-disabled="true">COMMITTEE</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://cmt3.research.microsoft.com/LAMASSR2024/" class="btn text-center" role="button">SUBMISSION</a>
-                </li>
-              </ul>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#about">LAMAS&SR 2024</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                  <i class="bi-list"></i>
+              </button>
+                    
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#call">Call for papers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dates">Important dates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#speakers">Invited speakers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#committee">Committee</a></li>
+                    </ul>
+                    <a href="https://cmt3.research.microsoft.com/LAMASSR2024/" class="btn btn-1 rounded-pill px-3 mb-2 mb-lg-0" role="button">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-send-exclamation-fill me-2"></i>
+                            <span class="small">SUBMISSION</span>
+                        </span>
+                      </a>
+                </div>
             </div>
-          </div>
         </nav>
 
-  <!--Jumbotron-->
-    <div class="jumbotron">
-    </div>
+        <!-- Head -->
+        <header class="masthead">
+          <img src="img/hanoi.png" class="img-fluid" alt="...">
+         </header>
 
-  <!--Start container-->
-    <div class="container">
-      <section id="about">
-        <h3 class="text-center">ABOUT</h3>
-          <p>Logics and strategic reasoning play a central role in multi-agent systems. Logics can be used, for instance, to express the agents' abilities, knowledge, and objectives. Strategic reasoning refers to algorithmic methods that allow for developing good behaviour for the agents of the system. At the intersection, we find logics that can express the existence of strategies or equilibria, and can be used to reason about them. The LAMAS&SR workshop merges two international workshops: LAMAS (Logical Aspects of Multi-Agent Systems), which focuses on all kinds of logical aspects of multi-agent systems from the perspectives of artificial intelligence, computer science, and game theory, and SR (Strategic Reasoning), devoted to all aspects of strategic reasoning in formal methods and AI.<br>
-          <br>LAMAS: The LAMAS workshop provides a meeting forum for the research community working on various logical aspects of multi-agent systems (MAS) from the perspectives of artificial intelligence, computer science, and game theory. It addresses the whole range of issues that arise in the context of using logic in MAS, from theoretical foundations to algorithmic methods and implemented tools. The workshop LAMAS has been regularly organised since 2002 and became the main annual event of the LAMAS research network.<br>
-          <br>SR: Strategic reasoning is a key topic in the multi-agent systems research area. The extensive literature in this field includes a number of logics used for reasoning about the strategic abilities of the agents in the system, but spans also game theory, decision theory or epistemic logics to name a few. The aim is to provide sound theoretical foundations and tools to tackle a variety of strategic problems in formal methods and artificial intelligence involving agents in adversarial settings. The SR workshop has been organised annually since 2013, often in co-location with the most important conferences in formal methods and AI.<br>
-          <br>LAMAS&SR: Over the years the communities and research themes of both workshops got closer and closer, with a significant overlap in the participants and organisers of both events. For this reason, the next editions of LAMAS and SR will be unified under the same flag, formally joining the two communities.
-          </p>
-      </section>
-    </div>
-
-    <div class="container">
-      <section id="call">
-        <h3 class="text-center">CALL FOR PAPERS</h3>
-          <p> LAMAS&SR is interested in all topics related to logics and strategic reasoning in multi-agent systems, from theoretical foundations to algorithmic methods and implemented tools. The topics of the workshop include, but are not limited to:
-            <ul>
-              <li>Logical systems for specification, analysis, and reasoning about multi-agent systems</li>
-              <li>Logic-based modelling of multi-agent systems</li>
-              <li>Dynamical multi-agent systems</li>
-              <li>Deductive systems and decision procedures for logics for multi-agent systems</li>
-              <li>Development and implementation of methods for verification of multi-agent systems</li>
-              <li>Logic-based tools for multi-agent systems</li>
-              <li>Logics for reasoning about strategic abilities</li>
-              <li>Logics for multi-agent mechanism design, verification, and synthesis</li>
-              <li>Logical foundations of decision theory for multi-agent systems</li>
-              <li>Strategic reasoning in formal verification</li>
-              <li>Automata theory for strategy synthesis</li>
-              <li>Applications and tools for cooperative and adversarial reasoning</li>
-              <li>Robust planning and optimization in multi-agent systems</li>
-              <li>Risk and uncertainty in multi-agent systems</li>
-              <li>Quantitative aspects in strategic reasoning</li>
-          </ul>
-            </p>
-              <h5>SUBMISSIONS</h5>
-            <p>Authors are invited to submit extended abstracts of 4 pages plus 1 page for references only, in the LNCS format. Both published and unpublished works are welcome. Submissions are subject to a single-blind review process (submissions should not be anonymous). Authors must submit their papers through the LAMAS&SR 2024 submission site as a single PDF file. 
-            </p>
-            
-            <div class = "text-center">
-              <a href="https://cmt3.research.microsoft.com/LAMASSR2024/" class="btn" role="button">SUBMISSION</a>
+        <!-- About -->
+        <div class="container">
+            <section id="about">
+              <h3 class="text-center">ABOUT</h3>
+                <p>Logics and strategic reasoning play a central role in multi-agent systems. Logics can be used, for instance, to express the agents' abilities, knowledge, and objectives. Strategic reasoning refers to algorithmic methods that allow for developing good behaviour for the agents of the system. At the intersection, we find logics that can express the existence of strategies or equilibria, and can be used to reason about them. The LAMAS&SR workshop merges two international workshops: LAMAS (Logical Aspects of Multi-Agent Systems), which focuses on all kinds of logical aspects of multi-agent systems from the perspectives of artificial intelligence, computer science, and game theory, and SR (Strategic Reasoning), devoted to all aspects of strategic reasoning in formal methods and AI.<br>
+                <br><strong>LAMAS</strong> - The LAMAS workshop provides a meeting forum for the research community working on various logical aspects of multi-agent systems (MAS) from the perspectives of artificial intelligence, computer science, and game theory. It addresses the whole range of issues that arise in the context of using logic in MAS, from theoretical foundations to algorithmic methods and implemented tools. The workshop LAMAS has been regularly organised since 2002 and became the main annual event of the LAMAS research network.<br>
+                <br><strong>SR</strong> - Strategic reasoning is a key topic in the multi-agent systems research area. The extensive literature in this field includes a number of logics used for reasoning about the strategic abilities of the agents in the system, but spans also game theory, decision theory or epistemic logics to name a few. The aim is to provide sound theoretical foundations and tools to tackle a variety of strategic problems in formal methods and artificial intelligence involving agents in adversarial settings. The SR workshop has been organised annually since 2013, often in co-location with the most important conferences in formal methods and AI.<br>
+                <br><strong>LAMAS&SR</strong> - Over the years the communities and research themes of both workshops got closer and closer, with a significant overlap in the participants and organisers of both events. For this reason, the next editions of LAMAS and SR will be unified under the same flag, formally joining the two communities.
+                </p>
+            </section>
             </div>
-              
-              <h5>PROCEEDINGS</h5>
-            <p>Although there will be no formal proceedings, accepted extended abstracts will be made available on the workshop website. Extended and revised versions of the best papers presented at the workshop will be invited for a special issue of a leading journal.
-            </p>      
-      </section>
-    </div>
 
-      <section id="dates">
-        <h3 class="text-center">IMPORTANT DATES</h3>
-          <div class="grad">
-            <div class="container py-5 h-100 text-center">
-              <ul class="list-group list-group-horizontal">
-                <li class="list-group-item ">July 17, 2024</li>
-                <li class="list-group-item">Paper Submission Deadline</li>
-              </ul>
-              <ul class="justify-content-center list-group list-group-horizontal">
-                <li class="list-group-item ">August 21, 2024</li>
-                <li class="list-group-item">Paper Notification</li>
-              </ul>
-              <ul class="justify-content-center list-group list-group-horizontal">
-                <li class="list-group-item ">September 4, 2024</li>
-                <li class="list-group-item">Registration Deadline</li>
-              </ul>
-              <ul class="justify-content-center list-group list-group-horizontal">
-                <li class="list-group-item ">November 2-4, 2024 (to be confirmed)</li>
-                <li class="list-group-item">Workshop</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="container">
-        <section id="program">
-          <h3 class="text-center">PROGRAM</h3>
-          <img class="mx-auto d-block rounded-circle img-fluid" src="./images/tba.png" alt="..." />
-          
-          
-            <!-- <div class="row text-center">
-              <div class="py-2">
-              
-                <div class="row">
-                
-                  <div class="col py-2">
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="float-right text-muted">Mon, Jan 9th 2019 7:00 AM</div>
-                        <h4 class="card-title">Day 1</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                      </div>
-                    </div>
+        <!-- Call for papers -->
+            <section id="call" class="bg-light">
+                <div class="container">
+                  <h3 class="text-center">CALL FOR PAPERS</h3>
+                    <p> LAMAS&SR is interested in all topics related to logics and strategic reasoning in multi-agent systems, from theoretical foundations to algorithmic methods and implemented tools. The topics of the workshop include, but are not limited to:<br>
+                    <br>
+                      <ul>
+                        <li>Logical systems for specification, analysis, and reasoning about multi-agent systems</li>
+                        <li>Logic-based modelling of multi-agent systems</li>
+                        <li>Dynamical multi-agent systems</li>
+                        <li>Deductive systems and decision procedures for logics for multi-agent systems</li>
+                        <li>Development and implementation of methods for verification of multi-agent systems</li>
+                        <li>Logic-based tools for multi-agent systems</li>
+                        <li>Logics for reasoning about strategic abilities</li>
+                        <li>Logics for multi-agent mechanism design, verification, and synthesis</li>
+                        <li>Logical foundations of decision theory for multi-agent systems</li>
+                        <li>Strategic reasoning in formal verification</li>
+                        <li>Automata theory for strategy synthesis</li>
+                        <li>Applications and tools for cooperative and adversarial reasoning</li>
+                        <li>Robust planning and optimization in multi-agent systems</li>
+                        <li>Risk and uncertainty in multi-agent systems</li>
+                        <li>Quantitative aspects in strategic reasoning</li>
+                      </ul>
+                    </p>
+                  <br>
+                  <h5>SUBMISSIONS</h5>
+                    <p>Authors are invited to submit extended abstracts of 4 pages plus 1 page for references only, in the LNCS format. Both published and unpublished works are welcome. Submissions are subject to a single-blind review process (submissions should not be anonymous). Authors must submit their papers through the LAMAS&SR 2024 submission site as a single PDF file. </p>
+                  <br>
+                  <div class = "text-center">
+                    <a href="https://cmt3.research.microsoft.com/LAMASSR2024/" class="btn btn-1 rounded-pill px-3 mb-2 mb-lg-0" role="button">
+                      <span class="d-flex align-items-center">
+                        <i class="bi-send-exclamation-fill me-2"></i>
+                        <span class="small">SUBMISSION</span>
+                      </span>
+                    </a>
                   </div>
-                </div>
-                
-                <div class="row">
-                  <div class="col py-2">
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="float-right text-muted">Tue, Jan 10th 2019 8:30 AM</div>
-                          <h4 class="card-title">Day 2</h4>
-                          <p class="card-text">tenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-               
-                <div class="row">
-                  <div class="col py-2">
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="float-right text-muted">Wed, Jan 11th 2019 8:30 AM</div>
-                          <h4 class="card-title">Day 3</h4>
-                          <p>SDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div class="row">
-                    <div class="col py-2">
-                      <div class="card">
-                        <div class="card-body">
-                          <div class="float-right text-muted">Thu, Jan 12th 2019 11:30 AM</div>
-                            <h4 class="card-title">Day 4</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-                    -->
-                </div>
+                  <br>
+                  <h5>PROCEEDINGS</h5>
+                    <p>Although there will be no formal proceedings, accepted extended abstracts will be made available on the workshop website. Extended and revised versions of the best papers presented at the workshop will be invited for a special issue of a leading journal.</p>
+                  </div>      
               </section>
 
-
-
-        <section id="speakers">
-          <h3 class="text-center">INVITED SPEAKERS</h3>
-            <div class="row text-center">
-              <div class="col-lg-4">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle img-fluid" src="./images/tba.png" alt="..." />
-                  <h5>To be announced</h5>
+        <!-- Important dates -->
+        <section id="dates">
+          <aside class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-1 py-2 h-100">
+                <div class="row gx-5 justify-content-center"></div>
+                  <h3 class="text-center">IMPORTANT DATES</h3>
+                    <div class="container py-3 h-100 text-center">
+                      <ul class=" justify-content-center list-group list-group-horizontal">
+                        <li class="list-group-item ">July 17, 2024</li>
+                        <li class="list-group-item">Paper Submission Deadline</li>
+                      </ul>
+                      <br>
+                      <ul class="justify-content-center list-group list-group-horizontal">
+                        <li class="list-group-item ">August 21, 2024</li>
+                        <li class="list-group-item">Paper Notification</li>
+                      </ul>
+                      <br>
+                      <ul class="justify-content-center list-group list-group-horizontal">
+                        <li class="list-group-item ">September 4, 2024</li>
+                        <li class="list-group-item">Registration Deadline</li>
+                      </ul>
+                      <br>
+                      <ul class="justify-content-center list-group list-group-horizontal">
+                        <li class="list-group-item ">November 2-4, 2024 (to be confirmed)</li>
+                        <li class="list-group-item">Workshop</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle img-fluid" src="./images/tba.png" alt="..." />
-                  <h5>To be announced</h5>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle img-fluid" src="./images/tba.png" alt="..." />
-                  <h5>To be announced</h5>
-                </div>
-              </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
               </div>
             </div>
-          </section>
-        </div>
+            </div>
+          </aside>
+        </section>
 
-        <section id="committee">
-          <h3 class="text-center">COMMITTEE</h3>
-            <div class="row text-center">
-              <div class="col-lg-4">
-                <div class="team-member">
-                  <img class="mx-auto rounded-circle img-fluid" src="./images/mm.jpeg" alt="Munyque Mittelmann" />
-                    <h5><a href="https://sites.google.com/view/mittelmann/about">Munyque Mittelmann</a></h5> University of Naples Federico II
-                      <p class="text-muted">Organiser</p>
-                </div>
-                </div>
+         <!-- Program -->
+        <div class="container">
+            <section id="program">
+              <h3 class="text-center">PROGRAM</h3>
+              <h5 class="text-center">Coming soon</h5>
+            </section>
+            </div>
+          
+          <!-- Invited speakers -->
+         <div class="container">
+            <section id="speakers">
+              <h3 class="text-center">INVITED SPEAKERS</h3>
+              <h5 class="text-center">Coming soon</h5>
+            </section>
+          </div>
+
+          <!-- Committee -->
+            <section id="committee">
+              <h3 class="text-center">COMMITTEE</h3>
+                <div class="row text-center">
                   <div class="col-lg-4">
                     <div class="team-member">
-                      <img class="mx-auto rounded-circle img-fluid" src="./images/af.jpg" alt="Angelo Ferrando" />
-                        <h5><a href="https://angeloferrando.github.io/website/">Angelo Ferrando</a></h5> University of Modena and Reggio Emilia
-                        <p class="text-muted">Organiser</p>
+                      <img class="mx-auto rounded-circle img-fluid py-1" src="img/mm.jpeg" alt="Munyque Mittelmann" />
+                        <h6><a href="https://sites.google.com/view/mittelmann/about">Munyque Mittelmann</a></h6>
+                        <p class="small">University of Naples Federico II</p>
+                        <p class="small text-muted">Organiser</p>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="team-member">
-                      <img class="mx-auto rounded-circle img-fluid" src="./images/am.jpeg" alt="Aniello Murano" />
-                        <h5><a href="https://people.na.infn.it/~murano/">Aniello Murano</a></h5> University of Naples Federico II
-                        <p class="text-muted">Organiser</p>
+                      <img class="mx-auto rounded-circle img-fluid py-1" src="img/af.jpg" alt="Angelo Ferrando" />
+                        <h6><a href="https://angeloferrando.github.io/website/">Angelo Ferrando</a></h6>
+                        <p class="small">University of Modena and Reggio Emilia</p>
+                        <p class="small text-muted">Organiser</p>
                     </div>
                   </div>
+                  <div class="col-lg-4">
+                    <div class="team-member">
+                      <img class="mx-auto rounded-circle img-fluid py-1" src="img/am.jpeg" alt="Aniello Murano" />
+                        <h6><a href="https://people.na.infn.it/~murano/">Aniello Murano</a></h6>
+                        <p class="small">University of Naples Federico II</p>
+                        <p class="small text-muted">Organiser</p>
+                    </div>
                   </div>
-                  
-                  </div>
-                </section>
-              </div>
+                </div>
+              </section>
+            </div>
 
-
-
-
-
-      <!-- Optional JavaScript; choose one of the two! -->
-
-      <!-- Option 1: Bootstrap Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-      <!-- Option 2: Separate Popper and Bootstrap JS -->
-      <!--
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-      -->
-    </body>
-
-
-      <div class="footer row text-center grad1">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-        <br>
+       
+        <!-- Footer-->
+        <footer class="text-center py-2">
           <h5>LAMAS&SR 2024</h5>
             <div class="icons">
-              <i class="bi bi-geo-alt"></i> Co-located with <a href="https://kr.org/KR2024/">KR 2024</a> (21th International Conference on Principles of Knowledge Representation and Reasoning) November 2 - 8, 2024
+              <i class="bi bi-geo-alt-fill"></i> Co-located with <a href="https://kr.org/KR2024/">KR 2024</a> (21th International Conference on Principles of Knowledge Representation and Reasoning) November 2 - 8, 2024
             </div>
-          </div>
-          <div class="col-sm-6">
+        
+            <a href="https://kr.org/KR2024/"><img class="mx-auto img-kr" src="img/KR.png" alt="KR 2024" /></a>
           <br>
-          <a href="https://kr.org/KR2024/"><img class="mx-auto img-kr" src="./images/KR.png" alt="KR 2024" /></a>
-          </div>
           <br>
-          <span class=text-center> &copy; 2024 LAMAS&SR</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  </html>
+            <p class="small text-muted">
+              &copy; MC 2024
+            </p>
+          </footer>
+            
+        
+        <!-- JS s-->
+       
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>     
+        
+      </body> 
+</html>
